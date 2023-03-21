@@ -1,0 +1,12 @@
+server:
+  port: 2024
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+  application:
+    name: cds
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
